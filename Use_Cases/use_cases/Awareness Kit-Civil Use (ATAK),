@@ -1,0 +1,38 @@
+
+=== Choose Awareness Kit-Civil Use (ATAK) and Open Source Routing Machine (OSRM)
+
+*Contributed By:* Ryan Fleming
+
+*Motivation:* 
+Military, government employees and contractors will want to find routes between 2 points of interest.  The user will want to plot points on a map to make notes along routes and on the map.
+
+*Summary*
+The points within ATAK and OSRM will help users to identify points along the map and help other users. 
+In order to choose a restaurant to eat in or get delivery from, users need to find restaurants near them
+and information about those restaurants to help decide which, if any, they want to use.
+
+*Related Use Cases*
+
+*Roles:*
+•	Military routing and intelligence analysis
+•	Government support to military or other partners
+•	Contractors  support to government, military or partners
+*Devices:*
+Users can use a computer, mobile device or tablet. 
+Users may want to choose a restaurant using a computer, a mobile phone, or an in-auto navigation system.
+
+*Data:*
+The data will have attributes for each point of interest such location, name, type of point of interest, hours.  If the point is a coordinate, the user can choose a point from points list. 
+The data will be attributes of restaurants such as: location, name, type of cuisine, business hours, price level, etc.
+
+*Dependencies:*
+Ability to install Vehicle Navigation System (VNS), compatible with ATAK onto a mobile phone or tablet.  The other dependency is the ability for the offline routing server to function properly with the graphopper file. 
+*Requirements:*
+System requirements as well as branch or user needs requirements. 
+
+*Variants:*
+•	Choose point of interest icon such as lodging, restaurant, supermarket, etc.
+•	Chose generic icon that isn’t in database or is a coordinate along with color and shape.
+
+*Security Considerations: *
+User should have secure session that is privates but should have the ability to share with other users if needed. 
